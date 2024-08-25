@@ -3,7 +3,7 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import lnmiitlogo from "/Users/simranpurohit/developerFolio/src/assets/images/Lnmiit-jaipur.png";
+import lnmiitlogo from "../src/assets/images/Lnmiit-jaipur.png";
 import zubi from "/Users/simranpurohit/developerFolio/src/assets/images/zubi_org_logo.jpeg";
 import revfinsure from "/Users/simranpurohit/developerFolio/src/assets/images/revfin..jpg";
 import ecommerce from "/Users/simranpurohit/developerFolio/src/assets/images/ecommerce.png";
