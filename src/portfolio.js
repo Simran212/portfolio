@@ -20,26 +20,41 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+  username: "Simran Purohit",
+  title: "Hi All, I'm Simran Purohit",
+  // subTitle: emoji(
+  //   "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / NextJs / NestJs/ Tailwind CSS / and some other cool libraries and frameworks."
+  // ),
+  subTitle: (
+    <span>
+      A passionate Full Stack Software Developer
+      <span style={{color: "#FF5733"}}></span> having an experience of building
+      Web applications with{" "}
+      <span style={{color: "#3498DB", fontWeight: "bold"}}>JavaScript</span> /{" "}
+      <span style={{color: "#E74C3C", fontWeight: "bold"}}>Reactjs</span> /{" "}
+      <span style={{color: "#1ABC9C", fontWeight: "bold"}}>Nodejs</span> /{" "}
+      <span style={{color: "#9B59B6", fontWeight: "bold"}}>NextJs</span> /{" "}
+      <span style={{color: "#F39C12", fontWeight: "bold"}}>NestJs</span> /{" "}
+      <span style={{color: "#2980B9", fontWeight: "bold"}}>Tailwind CSS</span>{" "}
+      and some other cool libraries and frameworks.
+    </span>
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1ZHhhvL29ms_3A8hUGFmF3w6MTChc1Ql9/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/Simran212",
+  linkedin: "https://www.linkedin.com/in/simran-purohit-5019a9192/",
+  gmail: "officialsimran44@gmail.com",
+  instagram: "https://www.instagram.com/simran._.212/",
+  // gitlab: "https://gitlab.com/saadpasta",
+  // facebook: "https://www.facebook.com/saad.pasta7",
+  // medium: "https://medium.com/@saadpasta",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -89,7 +104,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
+      skillName: "mongodb",
       fontAwesomeClassname: "fab fa-swift"
     },
     {
@@ -103,19 +118,19 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
     }
+    // {
+    //   skillName: "firebase",
+    //   fontAwesomeClassname: "fas fa-fire"
+    // },
+    // {
+    //   skillName: "python",
+    //   fontAwesomeClassname: "fab fa-python"
+    // },
+    // {
+    //   skillName: "docker",
+    //   fontAwesomeClassname: "fab fa-docker"
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -126,23 +141,29 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "The LNM Institute of Information Technology",
+      logo: require("/Users/simranpurohit/developerFolio/src/assets/images/The LNM Institute of Information Technology - [LNMIIT], Jaipur.png"),
+      subHeader: "Bachelor of Science in Computer Science",
+      duration: "September 2019 - April 2023",
+      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Data Structures and Algorithms",
+        "Operating Systems",
+        "Computer Networks",
+        "Database Management Systems",
+        "Software Engineering",
+        "Computer Architecture"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "The LNM Institute of Information Technology",
+      logo: require("/Users/simranpurohit/developerFolio/src/assets/images/The LNM Institute of Information Technology - [LNMIIT], Jaipur.png"),
+      subHeader: "Master of Science in Computer Science",
+      duration: "August 2023 - May 2024",
+      desc: "A Blockchain-Based Conditional Privacy-Preserving Authentication Scheme for Vehicular Communications",
+      descBullets: [
+        "Handling security and privacy issues} using Blockchain technology in Vehicular Ad-hoc Networks (VANETs) which potentially improves driver safety and traffic management efficiency through timely sharing of traffic status among vehicles."
+      ]
     }
   ]
 };
@@ -174,29 +195,30 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "FullStack Developer",
+      company: "Revfin",
+      companylogo: require("/Users/simranpurohit/developerFolio/src/assets/images/revfin.png"),
+      date: "Feb 2024 – Present",
+      desc: "Developed and deployed full-stack applications at Revfin, demonstrating proficiency in React, Next.js, NestJS, and AWS. Engineered robust solutions for leave management, including complex approval workflows and secure authentication.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Built scalable backend systems using serverless functions and MongoDB.",
+        "Optimized application performance and user experience through careful architecture and implementation.",
+        "Contributed to front-end development for Revfin's insurance website."
       ]
     },
     {
       role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      company: "DeMons",
+      companylogo: require("/Users/simranpurohit/developerFolio/src/assets/images/demons.jpg"),
       date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Blockchain Explorer - ⁠Built a responsive blockchain explorer using Next.js, HTML, CSS, and JavaScript, allowing users to track transactions and blockchain data. ⁠Utilized Bootstrap and TailwindCSS to create a visually appealing and engaging user interface.⁠Implemented real-time updates using WebSockets, enabling users to track live blockchain data. ⁠Collaborated with backend developers to integrate API data and ensure seamless data flow."
     },
     {
       role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      company: "Zubi.io",
+      companylogo: require("/Users/simranpurohit/developerFolio/src/assets/images/zubi_org_logo.jpeg"),
       date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: " ⁠Contributed to the development of a web application using Next.js, React, and Node.js, gaining hands-on experience with modern web development technologies. ⁠Assisted in designing and implementing a RESTful API using Node.js and Express, understanding API design principles and development. ⁠Participated in Agile development methodologies, learning to collaborate with teams and manage project timelines."
     }
   ]
 };
@@ -213,28 +235,95 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle:
+    "Innovative solutions, built with MERN stack and a passion for excellence.",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("/Users/simranpurohit/developerFolio/src/assets/images/revfin..jpg"),
+      projectName: "Revfin",
+      projectDesc: "Insurance website of revfin",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Revfinsure",
+          url: "https://revfinsure.in/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("/Users/simranpurohit/developerFolio/src/assets/images/ecommerce.png"),
+      projectName: "E-commerce Store",
+      projectDesc: "",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "E-commerce Website",
+          url: "https://mern-store-gold.vercel.app/#instagram"
+        }
+      ]
+    },
+    {
+      image: require("/Users/simranpurohit/developerFolio/src/assets/images/Purpose-of-Blogging.jpeg"),
+      projectName: "Blog Application",
+      projectDesc: "",
+      footerLink: [
+        {
+          name: "Blog Application",
+          url: "https://bugblog.netlify.app/"
+        }
+      ]
+    },
+    {
+      image: require("/Users/simranpurohit/developerFolio/src/assets/images/restaurant.avif"),
+      projectName: "Restaurant Application",
+      projectDesc: "",
+      footerLink: [
+        {
+          name: "Restaurant Application",
+          url: "https://bugblog.netlify.app/"
+        }
+      ]
+    },
+    {
+      image: require("/Users/simranpurohit/developerFolio/src/assets/images/OCR.jpg"),
+      projectName: "OCR",
+      projectDesc: "",
+      footerLink: [
+        {
+          name: "OCR",
+          url: "https://fascinating-dragon-a03024.netlify.app/"
+        }
+      ]
+    },
+    {
+      image: require("/Users/simranpurohit/developerFolio/src/assets/images/canva.png"),
+      projectName: "Canva",
+      projectDesc: "",
+      footerLink: [
+        {
+          name: "Canva",
+          url: "https://github.com/Simran212/canvas"
+        }
+      ]
+    },
+    {
+      image: require("/Users/simranpurohit/developerFolio/src/assets/images/quiz.avif"),
+      projectName: "Quiz Management System",
+      projectDesc: "",
+      footerLink: [
+        {
+          name: "Quiz Management System",
+          url: "https://bugblog.netlify.app/"
+        }
+      ]
+    },
+    {
+      image: require("/Users/simranpurohit/developerFolio/src/assets/images/weather.png"),
+      projectName: "Weather App",
+      projectDesc: "",
+      footerLink: [
+        {
+          name: "Weather App",
+          url: "https://bugblog.netlify.app/"
         }
       ]
     }
@@ -246,56 +335,49 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Coding Platforms And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Certifications, and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      title: "freeCodeCamp Certifications",
+      subtitle: "",
+      image: require("/Users/simranpurohit/developerFolio/src/assets/images/freecodecamp.png"),
+      imageAlt: "",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "JavaScript Algorithms and Data Structures",
+          url: "https://www.freecodecamp.org/certification/simran212/javascript-algorithms-and-data-structures"
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Responsive Web Design",
+          url: "https://www.freecodecamp.org/certification/simran212/responsive-web-design"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      title: "Leetcode",
+      subtitle: "",
+      image: require("./assets/images/leetcode.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Coding Profile",
+          url: "https://leetcode.com/u/simran44/"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Geeks for Geeks",
+      subtitle: "",
+      image: require("./assets/images/GeeksforGeeks.jpeg"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Coding Profile",
+          url: "https://www.geeksforgeeks.org/user/simran44priti/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user"
         }
       ]
     }
@@ -324,7 +406,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +425,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +438,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -372,15 +454,15 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91-9829488243",
+  email_address: "officialsimran44@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer

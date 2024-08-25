@@ -25,3 +25,19 @@ yarn-error.log*
 #user generated content
 public/profile.json
 public/blogs.json
+lottie.json
+.gitignore 
+
+
+.envdevelop
+public/user.json.debug/local
+yarn-debug.log
+package.json
+packagae.lock.json
+lottiefiles.json
+developement.json
+start build files 
+
+
+#use generated content
+
