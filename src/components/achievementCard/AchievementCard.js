@@ -1,4 +1,3 @@
-
 import "./AchievementCard.scss";
 
 export default function AchievementCard({cardInfo, isDark}) {
