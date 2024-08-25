@@ -13,7 +13,7 @@ import OCR from "../src/assets/images/OCR.jpg";
 import canva from "../src/assets/images/canva.png";
 import quiz from "../src/assets/images/quiz.avif";
 import weather from "../src/assets/images/weather.png";
-import freecodecamp from "../images/freecodecamp.png";
+import freecodecamp from "../src/assets/images/freecodecamp.png";
 import revfin from "../src/assets/images/revfin.png";
 import leetcode from "../src/assets/images/leetcode.png";
 import GeeksforGeeks from "../src/assets/images/GeeksforGeeks.jpeg";
