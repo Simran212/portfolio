@@ -4,20 +4,20 @@
 
 import emoji from "react-easy-emoji";
 import lnmiitlogo from "../src/assets/images/Lnmiit-jaipur.png";
-import zubi from "/Users/simranpurohit/developerFolio/src/assets/images/zubi_org_logo.jpeg";
-import revfinsure from "/Users/simranpurohit/developerFolio/src/assets/images/revfin..jpg";
-import ecommerce from "/Users/simranpurohit/developerFolio/src/assets/images/ecommerce.png";
-import PurposeofBlogging from "/Users/simranpurohit/developerFolio/src/assets/images/Purpose-of-Blogging.jpeg";
-import restaurant from "/Users/simranpurohit/developerFolio/src/assets/images/restaurant.avif";
-import OCR from "/Users/simranpurohit/developerFolio/src/assets/images/OCR.jpg";
-import canva from "/Users/simranpurohit/developerFolio/src/assets/images/canva.png";
-import quiz from "/Users/simranpurohit/developerFolio/src/assets/images/quiz.avif";
-import weather from "/Users/simranpurohit/developerFolio/src/assets/images/weather.png";
-import freecodecamp from "/Users/simranpurohit/developerFolio/src/assets/images/freecodecamp.png";
-import revfin from "/Users/simranpurohit/developerFolio/src/assets/images/revfin.png";
-import leetcode from "./assets/images/leetcode.png";
-import GeeksforGeeks from "./assets/images/GeeksforGeeks.jpeg";
-import demons from "/Users/simranpurohit/developerFolio/src/assets/images/demons.jpg";
+import zubi from "../src/assets/images/zubi_org_logo.jpeg";
+import revfinsure from "../src/assets/images/revfin..jpg";
+import ecommerce from "../src/assets/images/ecommerce.png";
+import PurposeofBlogging from "../src/assets/images/Purpose-of-Blogging.jpeg";
+import restaurant from "../src/assets/images/restaurant.avif";
+import OCR from "../src/assets/images/OCR.jpg";
+import canva from "../src/assets/images/canva.png";
+import quiz from "../src/assets/images/quiz.avif";
+import weather from "../src/assets/images/weather.png";
+import freecodecamp from "../images/freecodecamp.png";
+import revfin from "../src/assets/images/revfin.png";
+import leetcode from "../src/assets/images/leetcode.png";
+import GeeksforGeeks from "../src/assets/images/GeeksforGeeks.jpeg";
+import demons from "../src/assets/images/demons.jpg";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
 // Splash Screen
