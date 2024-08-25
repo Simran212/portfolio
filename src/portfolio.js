@@ -3,6 +3,21 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
+import lnmiitlogo from "/Users/simranpurohit/developerFolio/src/assets/images/Lnmiit-jaipur.png";
+import zubi from "/Users/simranpurohit/developerFolio/src/assets/images/zubi_org_logo.jpeg";
+import revfinsure from "/Users/simranpurohit/developerFolio/src/assets/images/revfin..jpg";
+import ecommerce from "/Users/simranpurohit/developerFolio/src/assets/images/ecommerce.png";
+import PurposeofBlogging from "/Users/simranpurohit/developerFolio/src/assets/images/Purpose-of-Blogging.jpeg";
+import restaurant from "/Users/simranpurohit/developerFolio/src/assets/images/restaurant.avif";
+import OCR from "/Users/simranpurohit/developerFolio/src/assets/images/OCR.jpg";
+import canva from "/Users/simranpurohit/developerFolio/src/assets/images/canva.png";
+import quiz from "/Users/simranpurohit/developerFolio/src/assets/images/quiz.avif";
+import weather from "/Users/simranpurohit/developerFolio/src/assets/images/weather.png";
+import freecodecamp from "/Users/simranpurohit/developerFolio/src/assets/images/freecodecamp.png";
+import revfin from "/Users/simranpurohit/developerFolio/src/assets/images/revfin.png";
+import leetcode from "./assets/images/leetcode.png";
+import GeeksforGeeks from "./assets/images/GeeksforGeeks.jpeg";
+import demons from "/Users/simranpurohit/developerFolio/src/assets/images/demons.jpg";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
 // Splash Screen
@@ -142,7 +157,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "The LNM Institute of Information Technology",
-      logo: require("/Users/simranpurohit/developerFolio/src/assets/images/Lnmiit-jaipur.png"),
+      logo: lnmiitlogo,
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2019 - April 2023",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
@@ -157,7 +172,7 @@ const educationInfo = {
     },
     {
       schoolName: "The LNM Institute of Information Technology",
-      logo: require("/Users/simranpurohit/developerFolio/src/assets/images/Lnmiit-jaipur.png"),
+      logo: lnmiitlogo,
       subHeader: "Master of Science in Computer Science",
       duration: "August 2023 - May 2024",
       desc: "A Blockchain-Based Conditional Privacy-Preserving Authentication Scheme for Vehicular Communications",
@@ -197,7 +212,7 @@ const workExperiences = {
     {
       role: "FullStack Developer",
       company: "Revfin",
-      companylogo: require("/Users/simranpurohit/developerFolio/src/assets/images/revfin.png"),
+      companylogo: revfin,
       date: "Feb 2024 – Present",
       desc: "Developed and deployed full-stack applications at Revfin, demonstrating proficiency in React, Next.js, NestJS, and AWS. Engineered robust solutions for leave management, including complex approval workflows and secure authentication.",
       descBullets: [
@@ -209,14 +224,14 @@ const workExperiences = {
     {
       role: "Front-End Developer",
       company: "DeMons",
-      companylogo: require("/Users/simranpurohit/developerFolio/src/assets/images/demons.jpg"),
+      companylogo: demons,
       date: "May 2017 – May 2018",
       desc: "Blockchain Explorer - ⁠Built a responsive blockchain explorer using Next.js, HTML, CSS, and JavaScript, allowing users to track transactions and blockchain data. ⁠Utilized Bootstrap and TailwindCSS to create a visually appealing and engaging user interface.⁠Implemented real-time updates using WebSockets, enabling users to track live blockchain data. ⁠Collaborated with backend developers to integrate API data and ensure seamless data flow."
     },
     {
       role: "Software Engineer Intern",
       company: "Zubi.io",
-      companylogo: require("/Users/simranpurohit/developerFolio/src/assets/images/zubi_org_logo.jpeg"),
+      companylogo: zubi,
       date: "Jan 2015 – Sep 2015",
       desc: " ⁠Contributed to the development of a web application using Next.js, React, and Node.js, gaining hands-on experience with modern web development technologies. ⁠Assisted in designing and implementing a RESTful API using Node.js and Express, understanding API design principles and development. ⁠Participated in Agile development methodologies, learning to collaborate with teams and manage project timelines."
     }
@@ -239,7 +254,7 @@ const bigProjects = {
     "Innovative solutions, built with MERN stack and a passion for excellence.",
   projects: [
     {
-      image: require("/Users/simranpurohit/developerFolio/src/assets/images/revfin..jpg"),
+      image: revfinsure,
       projectName: "Revfin",
       projectDesc: "Insurance website of revfin",
       footerLink: [
@@ -251,7 +266,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("/Users/simranpurohit/developerFolio/src/assets/images/ecommerce.png"),
+      image: ecommerce,
       projectName: "E-commerce Store",
       projectDesc: "",
       footerLink: [
@@ -262,7 +277,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("/Users/simranpurohit/developerFolio/src/assets/images/Purpose-of-Blogging.jpeg"),
+      image: PurposeofBlogging,
       projectName: "Blog Application",
       projectDesc: "",
       footerLink: [
@@ -273,7 +288,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("/Users/simranpurohit/developerFolio/src/assets/images/restaurant.avif"),
+      image: restaurant,
       projectName: "Restaurant Application",
       projectDesc: "",
       footerLink: [
@@ -284,7 +299,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("/Users/simranpurohit/developerFolio/src/assets/images/OCR.jpg"),
+      image: OCR,
       projectName: "OCR",
       projectDesc: "",
       footerLink: [
@@ -295,7 +310,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("/Users/simranpurohit/developerFolio/src/assets/images/canva.png"),
+      image: canva,
       projectName: "Canva",
       projectDesc: "",
       footerLink: [
@@ -306,7 +321,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("/Users/simranpurohit/developerFolio/src/assets/images/quiz.avif"),
+      image: quiz,
       projectName: "Quiz Management System",
       projectDesc: "",
       footerLink: [
@@ -317,7 +332,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("/Users/simranpurohit/developerFolio/src/assets/images/weather.png"),
+      image: weather,
       projectName: "Weather App",
       projectDesc: "",
       footerLink: [
@@ -343,7 +358,7 @@ const achievementSection = {
     {
       title: "freeCodeCamp Certifications",
       subtitle: "",
-      image: require("/Users/simranpurohit/developerFolio/src/assets/images/freecodecamp.png"),
+      image: freecodecamp,
       imageAlt: "",
       footerLink: [
         {
@@ -359,7 +374,7 @@ const achievementSection = {
     {
       title: "Leetcode",
       subtitle: "",
-      image: require("./assets/images/leetcode.png"),
+      image: leetcode,
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
@@ -372,7 +387,7 @@ const achievementSection = {
     {
       title: "Geeks for Geeks",
       subtitle: "",
-      image: require("./assets/images/GeeksforGeeks.jpeg"),
+      image: GeeksforGeeks,
       imageAlt: "PWA Logo",
       footerLink: [
         {
