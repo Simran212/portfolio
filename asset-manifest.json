@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.272dfe11.css",
+    "main.js": "/static/js/main.a7849a56.js",
+    "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
+    "static/js/487.7ae187c0.chunk.js": "/static/js/487.7ae187c0.chunk.js",
+    "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
+    "static/js/990.8b65b556.chunk.js": "/static/js/990.8b65b556.chunk.js",
+    "static/media/Lnmiit-jaipur.png": "/static/media/Lnmiit-jaipur.2beaa78e545ea2594302.png",
+    "static/media/Purpose-of-Blogging.jpeg": "/static/media/Purpose-of-Blogging.be3341409cc130e4873a.jpeg",
+    "static/media/ecommerce.png": "/static/media/ecommerce.97f8d22a86fe259b1074.png",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/leetcode.png": "/static/media/leetcode.d500bb7c08811162a15d.png",
+    "static/media/resume.pdf": "/static/media/resume.cd585da64ecd3d387454.pdf",
+    "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/canva.png": "/static/media/canva.413039e286322bd7ef8b.png",
+    "static/media/revfin..jpg": "/static/media/revfin..5051d3d96ff3ffa67355.jpg",
+    "static/media/OCR.jpg": "/static/media/OCR.e3a2109c03f4433d4a20.jpg",
+    "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/restaurant.avif": "/static/media/restaurant.2d90069ff8c2dddd4fd7.avif",
+    "static/media/GeeksforGeeks.jpeg": "/static/media/GeeksforGeeks.2dc91b4fef8a6ef1b866.jpeg",
+    "static/media/weather.png": "/static/media/weather.d918abae8d8f2fe5a70f.png",
+    "static/media/revfin.png": "/static/media/revfin.b3bfe115b18d7b0ced99.png",
+    "static/media/demons.jpg": "/static/media/demons.6cf65ba9493f06456393.jpg",
+    "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "static/media/quiz.avif": "/static/media/quiz.fad999185af08216149c.avif",
+    "index.html": "/index.html",
+    "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.272dfe11.css.map": "/static/css/main.272dfe11.css.map",
+    "main.a7849a56.js.map": "/static/js/main.a7849a56.js.map",
+    "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
+    "487.7ae187c0.chunk.js.map": "/static/js/487.7ae187c0.chunk.js.map",
+    "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
+    "990.8b65b556.chunk.js.map": "/static/js/990.8b65b556.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.272dfe11.css",
+    "static/js/main.a7849a56.js"
+  ]
+}
