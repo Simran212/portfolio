@@ -142,7 +142,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "The LNM Institute of Information Technology",
-      logo: require("/Users/simranpurohit/developerFolio/src/assets/images/The LNM Institute of Information Technology - [LNMIIT], Jaipur.png"),
+      logo: require("/Users/simranpurohit/developerFolio/src/assets/images/Lnmiit-jaipur.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2019 - April 2023",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
@@ -157,7 +157,7 @@ const educationInfo = {
     },
     {
       schoolName: "The LNM Institute of Information Technology",
-      logo: require("/Users/simranpurohit/developerFolio/src/assets/images/The LNM Institute of Information Technology - [LNMIIT], Jaipur.png"),
+      logo: require("/Users/simranpurohit/developerFolio/src/assets/images/Lnmiit-jaipur.png"),
       subHeader: "Master of Science in Computer Science",
       duration: "August 2023 - May 2024",
       desc: "A Blockchain-Based Conditional Privacy-Preserving Authentication Scheme for Vehicular Communications",
